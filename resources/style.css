@@ -61,6 +61,38 @@ justify-content: space-around;
   border-color: black;
 }
 
+.column_large .large_main{
+  display: flex;
+  flex-direction: column;
+}
+
+.column_large .large_main .main_pic {
+
+  background-image: url("/home/jinkazama/FrontEnd_Local_Projects/MyTimes/resources/img-story-main.png");
+  background-size: cover;
+
+
+
+}
+
+.column_large .large_main .main_pic h1{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+
+
+}
+
+.column_large .large_main p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+
+
+
 .column_medium {
   display: flex;
   margin-top: 20px;
@@ -86,7 +118,7 @@ justify-content: space-around;
 
 .column_medium h1 {
   font-family: Georgia;
-    font-size: 40px;
+    font-size: 30px;
     color: black;
 
 
